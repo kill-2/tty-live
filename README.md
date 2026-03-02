@@ -1,4 +1,4 @@
-# Tty::Live
+# TTY::Live
 
 Refresh console
 
@@ -17,6 +17,8 @@ gem install tty-live
 ## Usage
 
 ```ruby
+require 'tty-live'
+
 live = TTY::Live.new
 
 10.times do
