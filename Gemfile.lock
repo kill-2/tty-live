@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    tty-live (0.1.0)
+    tty-live (0.1.1)
+      tty-cursor (~> 0.7.1)
 
 GEM
   remote: https://rubygems.org/
@@ -39,7 +40,6 @@ PLATFORMS
 DEPENDENCIES
   irb
   rake (~> 13.0)
-  tty-cursor (~> 0.7.1)
   tty-live!
 
 BUNDLED WITH

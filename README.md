@@ -1,6 +1,6 @@
 # TTY::Live
 
-Refresh console
+This is a wrapper for `TTY::Cursor` to help you refresh console.
 
 ## Installation
 
@@ -28,6 +28,13 @@ live = TTY::Live.new
 end
 
 puts
+```
+
+And you can access `TTY::Cursor`'s methods through `TTY::Live` instance:
+
+```ruby
+# same as `print TTY::Cursor.up(5) + TTY::Cursor.forward(2)`
+print live.up(5) + live.forward(2)
 ```
 
 ## Development
